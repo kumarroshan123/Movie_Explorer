@@ -3,6 +3,10 @@ let searchbtn = document.querySelector(".navbar-button");
 let search = document.querySelector("#search-input");
 let abt = document.querySelector("#about");
 let page = document.querySelector(".page");
+let home= document.querySelector("#home");
+home.addEventListener('click',()=>{
+   location.reload();
+})
 let pagenumber = 1;
 let totalpage;
 
