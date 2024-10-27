@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Baloo+Paaji+2:wght@400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Baloo Paaji 2", sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #007bff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-logo img{
+    width: 50px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+.navbar-links input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    font-size: large;
+}
+
+.navbar-links button{
+    padding: 8px;
+    font-size: large;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
